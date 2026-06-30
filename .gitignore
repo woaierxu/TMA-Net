@@ -1,0 +1,91 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments and packaging
+.Python
+.venv/
+venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Test, coverage, and type-check caches
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# IDE and OS files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs and experiment outputs
+*.log
+logs/
+log/
+runs/
+wandb/
+tensorboard/
+events.out.tfevents*
+outputs/
+output/
+results/
+result/
+exp/
+experiments/
+snapshot/
+snapshots/
+checkpoint/
+checkpoints/
+save/
+saves/
+
+# Model weights and large binary artifacts
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.onnx
+*.pkl
+*.pickle
+*.safetensors
+
+# Dataset files: keep split lists and metadata, ignore bulky data arrays/images
+Code/Datasets/**/*.h5
+Code/Datasets/**/*.hdf5
+Code/Datasets/**/*.nii
+Code/Datasets/**/*.nii.gz
+Code/Datasets/**/*.mha
+Code/Datasets/**/*.mhd
+Code/Datasets/**/*.raw
+Code/Datasets/**/*.npy
+Code/Datasets/**/*.npz
+Code/Datasets/**/*.mat
+Code/Datasets/**/*.dcm
+Code/Datasets/**/*.zip
+Code/Datasets/**/*.tar
+Code/Datasets/**/*.tar.gz
+Code/Datasets/**/*.rar
+Code/Datasets/**/*.7z
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.orig
