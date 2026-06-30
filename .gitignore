@@ -65,6 +65,7 @@ saves/
 *.pkl
 *.pickle
 *.safetensors
+!Code/biomed_clip/embeddings/*.pth
 
 # Dataset files: keep split lists and metadata, ignore bulky data arrays/images
 Code/Datasets/**/*.h5
